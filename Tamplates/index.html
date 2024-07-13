@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+
+<section>
+  <div class="container my-5">
+      <div class="row" style="margin-bottom:111px;">
+
+          <div class="col-sm-6 text-center">
+            <div class="card border border-dark shadow">
+                <div class="card-body">
+                    <h5 class="card-title">View Employees </h5>
+                    <p class="card-text">To View Employee Details..</p>
+                    <a href="{% url 'view-employee' %}" class="btn btn-primary">Click to View</a>
+                </div>
+            </div>
+          </div>  
+
+          <div class="col-sm-6 mb-sm-5 text-center">
+              <div class="card border border-dark shadow">
+                  <div class="card-body">
+                      <h5 class="card-title">Add Employees <i class="fa fa-plus" aria-hidden="true"></i></h5>
+
+                      <p class="card-text">To Add Employee Details..</p>
+
+                      <a href="{% url 'add-employee' %}" class="btn btn-primary">Click to add</a>
+                  </div>
+              </div>
+          </div>
+
+          
+
+          <div class="col-sm-6 text-center">
+              <div class="card border border-dark shadow">
+                  <div class="card-body">
+                      <h5 class="card-title">Delete Employee</h5>
+                      <p class="card-text">To Delete Employee Details..</p>
+                      <a href="{% url 'view-employee' %}" class="btn btn-primary">Click to Delete</a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-sm-6 text-center">
+              <div class="card border border-dark shadow">
+                  <div class="card-body">
+                      <h5 class="card-title">Update Employee</h5>
+                      <p class="card-text">To Update Employee Details.</p>
+                      <a href="{% url 'view-employee' %}" class="btn btn-primary">Click to Update</a>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+
+  </div>
+</section>
+{% endblock body %}

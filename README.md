@@ -30,7 +30,7 @@ This project helps organizations or teams keep track of employee details in a us
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/employee-management-system.git
+git clone https://github.com/saparya05/Employee-Management-System
 cd employee-management-system
 ```
 ### 2. Create a virtual environment (optional but recommended)

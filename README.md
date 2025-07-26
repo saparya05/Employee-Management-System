@@ -41,7 +41,7 @@ env\Scripts\activate         # Windows
 ```
 ### 3. Install dependencies
 ```bash
-pip install -r requirements.txt
+pip install Django==4.2.7
 ```
 ### 4. Apply migrations
 ```bash
